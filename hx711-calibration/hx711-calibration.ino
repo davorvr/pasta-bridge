@@ -16,7 +16,7 @@ double calib_value;
 
 void setup() {
   Serial.begin(115200);
-  Serial.println("Remove all weight from the scale and press any key.");
+  Serial.println("Remove all weight from the scale and press Send.");
   while (Serial.available() == 0);
   while (Serial.available()) Serial.read();
 
@@ -25,12 +25,12 @@ void setup() {
   scale.set_scale();
   scale.tare();
   
-  Serial.println("Input the reference weight in grams: ");
+  Serial.println("Input the reference weight in grams and press Send.");
   while (Serial.available() == 0);
   reference_g = Serial.parseFloat();
   while (Serial.available()) Serial.read();
   
-  Serial.println("Place the reference weight onto the scale and press any key.");
+  Serial.println("Place the reference weight onto the scale and press Send.");
   while (Serial.available() == 0);
   while (Serial.available()) Serial.read();
 
