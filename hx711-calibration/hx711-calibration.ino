@@ -21,7 +21,7 @@ void setup() {
   while (Serial.available()) Serial.read();
 
   delay(1000);
-  scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
+  scale.begin(hx_do_pin, hx_sck_pin);
   scale.set_scale();
   scale.tare();
   
