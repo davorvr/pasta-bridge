@@ -4,8 +4,8 @@ This is a repository which contains Arduino code for a bridge which forwards HX7
 
 #### Papers:
 
- * Virag D, Homolak J, Kodvanj I, Babic Perhoc A, Knezovic A, Osmanovic Barilar J, et al. *Repurposing a digital kitchen scale for neuroscience research: a complete hardware and software cookbook for PASTA.* Sci Rep 2021;11:2963. https://doi.org/10.1038/s41598-021-82...
- * Homolak J, Virag D, Kodvanj I, Matak I, Perhoc AB, Knezovic A, et al. *A hacked kitchen scale-based system for quantification of grip strength in rodents.* 2021. https://doi.org/10.1101/2020.07.23.21...
+ * Virag D, Homolak J, Kodvanj I, Babic Perhoc A, Knezovic A, Osmanovic Barilar J, et al. *Repurposing a digital kitchen scale for neuroscience research: a complete hardware and software cookbook for PASTA.* Sci Rep 2021;11:2963. https://doi.org/10.1038/s41598-021-82710-6
+ * Homolak J, Virag D, Kodvanj I, Matak I, Perhoc AB, Knezovic A, et al. *A hacked kitchen scale-based system for quantification of grip strength in rodents.* 2021. https://doi.org/10.1101/2020.07.23.217737
 
 #### How-to videos:
 
